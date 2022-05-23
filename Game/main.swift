@@ -7,5 +7,11 @@
 
 import Foundation
 
-print("Hello, World!")
+//Init game (with players creation)
+var game = Game()
 
+//Start fight
+game.fight()
+
+//Game over
+game.over()
